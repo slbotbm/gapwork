@@ -14,7 +14,7 @@ I use MIT's version of Scheme with Ubuntu | [Prof. Brian Harvey's Class](http://
     5. [Lectures (by Prof. Brian Harvey of UCB)](https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9)
     6. [Even more lectures (by Prof Eric Grimson of MIT)!](https://www.youtube.com/playlist?list=PL7BcsI5ueSNFPCEisbaoQ0kXIDX9rR5FF)
     <br /> 
-    Library files for Prof. Harvey's CS61A can be found [here](https://github.com/slbotbm/gapwork/tree/main/Scheme/Library%20Files%20-%20cs61a)<br/><br />
+    Library files for Prof. Harvey's CS61A can be found in the folder 'Scheme'. <br /> <br />
     
 ```scheme
 1 ]=> (define (is-good-SICP?))
