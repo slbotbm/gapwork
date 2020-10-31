@@ -19,3 +19,12 @@
 
 (define (cube-root x) (cube-root-iter 1.0 x))
 ;cube root - end
+
+;factorial - recursive
+(define (factorial-recur n) (if (= n 1) 1 (* n (factorial-recur (- n 1)))))
+
+; factorial - iterative - start
+(define (factorial-iter n)
+(define (factorial-worker product counter max-num)
+    (if (> counter max-num) product (factorial-worker (* product counter) (+ counter 1) max-num)))
+(factorial-worker 1 1 n))
