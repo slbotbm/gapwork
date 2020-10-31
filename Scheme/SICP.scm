@@ -25,6 +25,15 @@
 
 ; factorial - iterative - start
 (define (factorial-iter n)
+
 (define (factorial-worker product counter max-num)
     (if (> counter max-num) product (factorial-worker (* product counter) (+ counter 1) max-num)))
 (factorial-worker 1 1 n))
+;factorial - iterative - end
+
+;ackermann's function
+(define (A x y)
+    (cond ((= y 0) 0)
+          ((= x 0) (* 2 y))
+          ((= y 1) 2)
+          (else (A (- x 1) (A x (- y 1))))))
